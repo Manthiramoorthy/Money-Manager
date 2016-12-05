@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.niresh.hi.tab.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:text="TODAY"
+
+        android:textStyle="bold"
+        android:layout_marginTop="30pt"
+        android:textSize="50dp"
+
+        android:id="@+id/text1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:text="INCOME"
+        android:textStyle="normal"
+        android:layout_marginTop="60pt"
+        android:textSize="30dp"
+
+        android:id="@+id/text2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:text="income"
+        android:textStyle="normal"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        android:layout_marginTop="60pt"
+        android:textSize="30dp"
+
+        android:id="@+id/income" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:text="EXPENSE"
+        android:layout_marginTop="90pt"
+        android:textSize="30dp"
+
+        android:id="@+id/text3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:text="expense"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        android:layout_marginTop="90pt"
+        android:textSize="30dp"
+
+        android:id="@+id/expense" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:text="BALANCE"
+        android:layout_marginTop="120pt"
+        android:textSize="30dp"
+
+        android:id="@+id/text4" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/textColorLink"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar3"
+        app:title="Your Transaction"
+        app:titleTextColor="@android:color/white"
+        app:titleMargin="7dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:text="balance"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        android:layout_marginTop="120pt"
+        android:textSize="30dp"
+
+        android:id="@+id/balance" />
+
+</FrameLayout>
